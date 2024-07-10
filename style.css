@@ -71,9 +71,10 @@
 .banner-text {
   display: flex;
   flex-direction: column;
+  height: 309px;
   /* justify-content: center; */
   align-items: center;
-  margin-top: 0px;
+  margin-top: 32px;
 }
 .banner-content h1 {
   font-size: 48px;
@@ -99,13 +100,13 @@
   padding: 21px 24px;
   background-color: #0d1321;
   border-radius: 8px;
-  margin-bottom: 45px;
+  /* margin-bottom: 0px; */
 }
 .hero-image-container {
   height: 240.28px;
   width: 240px;
   margin-top: 0px;
-  margin-bottom: 32px;
+  /* margin-bottom: 32px; */
 }
 .hero-image-container img {
   height: 100%;
