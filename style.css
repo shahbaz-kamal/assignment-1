@@ -232,3 +232,36 @@
 }
 /* common styling ends */
 /* <!-- why Web development is necessary sendshere --> */
+
+.ins-container {
+  width: 1140px;
+  height: 775px;
+
+  margin: 0 auto;
+  margin-top: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ins-container h1 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.ins-container p {
+  text-align: center;
+  margin-top: 24px;
+}
+.vedio-container {
+  width: 1140px;
+  height: 614px;
+  border-radius: 16px;
+  margin-top: 48px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  border-radius: 16px;
+}
