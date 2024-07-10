@@ -1,11 +1,11 @@
 /*  font-family: "Azeret Mono", monospace; */
 
-*body {
+* {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
 }
 /* shared styles starts here */
@@ -23,12 +23,15 @@
   justify-content: space-between;
   margin: 0 150px;
   margin-top: 38px;
+  margin-bottom: 36px;
   /* margin-left: 150px;
   margin-right: 150px; */
 }
 .nav-container h3 {
   font-weight: 800;
   font-size: 28px;
+}
+.btn-primary a {
 }
 .btn-primary {
   font-size: 20px;
@@ -37,16 +40,76 @@
   border: 1px solid black;
   border-radius: 8px;
   background-color: white;
+  color: #0d1321;
 }
 
 /* navbar-styling endshere */
 
 /* banner container styles  starts*/
 .banner-container {
-  width: 1440px;
+  /* width: 1440px; */
   height: 652px;
-  border: 2px solid red;
-  margin: 0 auto;
+
+  /* margin: 0 auto; */
   background-image: url(./assets/Hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+.banner-content {
+  width: 998px;
+  height: 581px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 0px;
+}
+.banner-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.banner-content p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 32px;
+}
+.btn-contact-me a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 20px;
+}
+.btn-contact-me {
+  /* width: 244px; */
+  height: 65px;
+  padding: 21px 24px;
+  background-color: #0d1321;
+  border-radius: 8px;
+  margin-bottom: 45px;
+}
+.hero-image-container {
+  height: 240.28px;
+  width: 240px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+.hero-image-container img {
+  height: 100%;
+  width: 100%;
+}
+
 /* banner container styles ends*/
