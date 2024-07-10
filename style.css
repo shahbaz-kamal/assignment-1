@@ -90,6 +90,7 @@
   font-weight: 400;
   text-align: center;
   margin-bottom: 32px;
+  color: #0d1321;
 }
 .btn-contact-me a {
   text-decoration: none;
@@ -153,6 +154,9 @@
   text-align: center;
   margin-top: 24px;
   margin-bottom: 48px;
+}
+.wd-container p {
+  font-weight: 400;
 }
 /* common styling starts */
 #goal {
@@ -246,10 +250,15 @@
 .ins-container h1 {
   font-size: 32px;
   font-weight: 800;
+  color: #0d1321;
 }
 .ins-container p {
   text-align: center;
   margin-top: 24px;
+  color: #0d1321;
+  font-weight: 400;
+  margin-left: 144px;
+  margin-right: 144px;
 }
 .vedio-container {
   width: 1140px;
@@ -265,3 +274,74 @@
 iframe {
   border-radius: 16px;
 }
+
+/* My current target section styling starts here */
+.my-current-target {
+  width: 1140px;
+  height: 550px;
+
+  margin: 0 auto;
+  margin-top: 151px;
+  margin-bottom: 50px;
+}
+.my-current-target h1 {
+  font-size: 32px;
+  font-weight: 800;
+  color: #0d1321;
+  text-align: center;
+}
+.target-description {
+  text-align: center;
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #0d1321;
+  margin-bottom: 48px;
+  margin-left: 144px;
+  margin-right: 144px;
+}
+.my-current-target {
+  display: flex;
+  flex-direction: column;
+}
+.skills-container {
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+  /* align-items: center;
+  justify-content: center; */
+}
+.skill {
+  width: 364px;
+  border-radius: 16px;
+  padding: 40px;
+}
+.skill img {
+  margin-bottom: 24px;
+}
+.skill h4 {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #0d1321;
+}
+.skill p {
+  margin-bottom: 24px;
+  text-align: left;
+}
+.skill a {
+  font-size: 16px;
+  font-weight: 700px;
+  color: #0d1321;
+}
+.skill button {
+  font-size: 16px;
+  font-weight: 700px;
+}
+/* My current target section styling ends here */
+
+/* help styling starts */
+
+.help-container {
+}
+/* help styling starts */
