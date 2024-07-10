@@ -343,5 +343,70 @@ iframe {
 /* help styling starts */
 
 .help-container {
+  width: 1140px;
+  height: 313px;
+
+  border-radius: 16px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(./assets/handshake.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.help-container h1 {
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 16px;
+  padding-top: 64px;
+}
+.help-container p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+
+  margin-bottom: 24px;
+  width: 606px;
+  margin-left: 267px;
+}
+.forms {
+  display: flex;
+  justify-content: center;
+}
+.forms input {
+  width: 548px;
+  height: 57px;
+  border-radius: 8px;
+  padding: 19px 215px 19px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  background-color: #ffffff;
+}
+.forms button {
+  width: 120px;
+  height: 57px;
+  border-radius: 8px;
+  margin-left: 16px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 17px;
 }
 /* help styling starts */
+
+/* footer starts */
+.footnote {
+  width: 1440px;
+  height: 100px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+}
+
+/* footer ends */
